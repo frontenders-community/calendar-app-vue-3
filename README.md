@@ -1,40 +1,13 @@
-# vue-events-calendar
+# Frontenders Community
 
-This template should help get you started developing with Vue 3 in Vite.
+## Challenge #12 - Calendar App
+In questa challenge affrontiamo la manipolazione delle date in Javascript, realizzando un'applicazione Calendario.
+L'app avrà le seguenti funzionalità:
+- possibilità di scegliere la modalità di visualizzazione: per mese, settimana oppure singolo giorno;
+- possibilità di spostarsi avanti / indietro nel calendario;
+- visualizzazione del giorno corrente.
 
-## Recommended IDE Setup
+L'aggiunta e visualizzazione degli eventi nel calendario sono bonus. Infatti questa funzionalità non è implementata nella versione base ma sarà affrontata nella successiva sessione studio.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+### Tecnologie
+E' consigliato svolgere la challenge con un framework (React, Vue o altro). Per la manipolazione delle date nella nostra implementazione è stata usata libreria luxon, ma siete liberi di scegliere qualsiasi altra libreria oppure JS plain. No librerie CSS.
