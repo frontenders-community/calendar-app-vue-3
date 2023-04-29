@@ -1,0 +1,20 @@
+@use "./partials/variables" as *;
+@use "./partials/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: $text-color;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
