@@ -12,5 +12,5 @@ L'aggiunta e visualizzazione degli eventi nel calendario sono bonus. Infatti que
 ### Tecnologie
 E' consigliato svolgere la challenge con un framework (React, Vue o altro). Per la manipolazione delle date nella nostra implementazione è stata usata libreria luxon, ma siete liberi di scegliere qualsiasi altra libreria oppure JS plain. No librerie CSS.
 
-https://user-images.githubusercontent.com/56634652/235312005-a25269e5-63a7-47ea-9039-6b413bd46a8e.mov
+[Preview]https://user-images.githubusercontent.com/56634652/235312005-a25269e5-63a7-47ea-9039-6b413bd46a8e.mov
 
